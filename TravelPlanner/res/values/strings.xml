@@ -1,0 +1,42 @@
+/**
+ * @author Shilpi Agarwal
+ * @author Hema Kumar
+ */
+/** This file is part of TravelPlanner.
+
+TravelPlanner is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TravelPlanner is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Travel Planner Application</string>
+	<string name="newPlan">Create Travel CheckList</string>
+    <string name="existingPlan">Show Travel CheckLists</string>
+    <string name="travelName">Travel Name</string>
+    <string name="travelMode">Travel Mode</string>
+    <string name="travelType">Travel Type</string>
+    <string name="travelDate">Travel Date</string>
+    <string name="travelTime">Travel Time</string>
+    <string name="travelFrom">Travel From</string>
+    <string name="travelTo">Travel To</string>
+    <string name="AddTravelPlanButton">Add</string>
+    <string name="CancelTravelPlanButton">Cancel</string>
+    <string name="addCheckListItem">Add CheckList Item</string>
+    <string name="addChecklistButton">Add CheckList Item</string>
+   <string name="travel_type">Choose Travel Type</string>
+    <string name="travel_mode">Choose Travel Mode</string>
+    <string name="travel_time">Choose Travel Time</string>
+   
+</resources>

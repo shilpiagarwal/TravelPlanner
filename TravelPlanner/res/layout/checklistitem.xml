@@ -1,0 +1,138 @@
+/**
+ * @author Shilpi Agarwal
+ * @author Hema Kumar
+ */
+/** This file is part of TravelPlanner.
+
+TravelPlanner is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TravelPlanner is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/widget54"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background"
+android:padding="10px"
+android:id="@+id/tableLayout"
+>
+<TableRow>
+<TextView
+android:id="@+id/travelName"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:width ="120px"
+android:text="@string/travelName"/>
+<TextView
+android:id="@+id/travelNameText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:width ="120px"
+android:text=""/>
+
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelMode"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelMode"/>
+<TextView
+android:id="@+id/travelModeText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelType"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelType"/>
+<TextView
+android:id="@+id/travelTypeText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelDate"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelDate"/>
+<TextView
+android:id="@+id/travelDateText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelTime"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelTime"/>
+<TextView
+android:id="@+id/travelTimeText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelFrom"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelFrom"/>
+<TextView
+android:id="@+id/travelFromText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+<TableRow> 
+<TextView
+android:id="@+id/travelTo"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/travelTo"/>
+<TextView
+android:id="@+id/travelToText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""/>
+</TableRow> 
+
+<TableRow> 
+</TableRow> 
+<TableRow> 
+<Button
+android:id="@+id/addChecklistButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/addChecklistButton" />
+<Button
+android:id="@+id/cancelTravelPlanButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/CancelTravelPlanButton" />
+</TableRow> 
+</TableLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+/**
+ * @author Shilpi Agarwal
+ * @author Hema Kumar
+ */
+/** This file is part of TravelPlanner.
+
+TravelPlanner is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TravelPlanner is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.travelplanner" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewPlan"/>
+        <activity android:name=".ExistingPlan"/>
+        <activity android:name=".AddNewPlanCheck"/>
+        <activity android:name=".CheckList"/>
+        <activity android:name=".ShowTravelCheckList"/>
+         
+    </application>
+    <uses-sdk android:minSdkVersion="7"/>
+</manifest>
