@@ -1,24 +1,25 @@
-/**
- * @author Shilpi Agarwal
- * @author Hema Kumar
- */
-/** This file is part of TravelPlanner.
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright(c) 2011 Shilpi Agarwal,Hema Kumar
 
 TravelPlanner is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-TravelPlanner is distributed in the hope that it will be useful,
+This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
-*/
+along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-<?xml version="1.0" encoding="UTF-8"?>
+Author: Shilpi Agarwal,Hema Kumar
+feedback: agarwal.shilpi.84@gmail.com,hemasid@gmail.com
+-->
+
 <manifest android:versionCode="1" android:versionName="1.0"
     package="com.travelplanner" xmlns:android="http://schemas.android.com/apk/res/android">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
@@ -26,6 +27,7 @@ along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+                <uses-library android:name="com.google.android.maps" />
             </intent-filter>
         </activity>
         <activity android:name=".NewPlan"/>
