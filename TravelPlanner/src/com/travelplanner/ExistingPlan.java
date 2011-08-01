@@ -1,8 +1,7 @@
-
 /**
- * @author Shilpi Agarwal
- * @author Hema Kumar
- */
+* @author Shilpi Agarwal
+* @author Hema Kumar
+*/
 /** This file is part of TravelPlanner.
 
 TravelPlanner is free software: you can redistribute it and/or modify
