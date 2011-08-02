@@ -1,6 +1,25 @@
-
-
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright(c) 2011 Shilpi Agarwal,Hema Kumar
+
+TravelPlanner is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+Author: Shilpi Agarwal,Hema Kumar
+feedback: agarwal.shilpi.84@gmail.com,hemasid@gmail.com
+-->
+
 <resources>
     <string name="hello">Hello World</string>
     <string name="app_name">Travel Planner Application</string>
@@ -11,7 +30,7 @@
     <string name="travelType">Travel Type</string>
     <string name="travelDate">Travel Date</string>
     <string name="travelTime">Travel Time</string>
-    <string name="travelFrom">Travel From</string>
+    <string name="travelFrom">Travel From</string> 
     <string name="travelTo">Travel To</string>
     <string name="AddTravelPlanButton">Add</string>
     <string name="CancelTravelPlanButton">Cancel</string>
@@ -20,5 +39,8 @@
    <string name="travel_type">Choose Travel Type</string>
     <string name="travel_mode">Choose Travel Mode</string>
     <string name="travel_time">Choose Travel Time</string>
+    <string name="travel_From">Choose Travel From</string>
+    <string name="travel_To">Choose Travel To</string>
+    
    
 </resources>

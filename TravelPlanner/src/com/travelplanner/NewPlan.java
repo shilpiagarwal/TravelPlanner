@@ -1,7 +1,7 @@
 /**
- * @author Shilpi Agarwal
- * @author Hema Kumar
- */
+* @author Shilpi Agarwal
+* @author Hema Kumar
+*/
 /** This file is part of TravelPlanner.
 
 TravelPlanner is free software: you can redistribute it and/or modify
@@ -16,6 +16,9 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
+
+For feedback please mail at agarwal.shilpi.84@gmail.com/hemasid@gmail.com
+                            
 */
 
 package com.travelplanner;
@@ -100,6 +103,18 @@ public class NewPlan extends Activity implements OnClickListener{
 	    final Button cancleButton = (Button) findViewById(R.id.cancelTravelPlanButton);
 	    cancleButton.setOnClickListener(this);
 	    db = new DBAdapter(this);
+	    
+	    Spinner travelFrom = (Spinner) findViewById(R.id.travelFromSpinner);
+        ArrayAdapter travelFromAdapter = ArrayAdapter.createFromResource(
+                this, R.array.TravelFrom, android.R.layout.simple_spinner_item);
+        travelFromAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        travelFrom.setAdapter(travelFromAdapter);
+        
+        Spinner travelTo = (Spinner) findViewById(R.id.travelToSpinner);
+        ArrayAdapter travelToAdapter = ArrayAdapter.createFromResource(
+                this, R.array.travelTo, android.R.layout.simple_spinner_item);
+        travelToAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        travelTo.setAdapter(travelToAdapter);
 	}
 	
 	private void updateDisplay() {
@@ -123,6 +138,7 @@ public class NewPlan extends Activity implements OnClickListener{
                     updateDisplay();
                 }
             };
+	private String to;
             
             @Override
             protected Dialog onCreateDialog(int id) {
@@ -145,8 +161,11 @@ public class NewPlan extends Activity implements OnClickListener{
 			    String type = ((String)((Spinner) findViewById(R.id.travelTypeSpinner)).getSelectedItem()).toUpperCase();
 			    String date = ((TextView) findViewById(R.id.dateDisplay)).getText().toString();
 			    String time = (String)((Spinner) findViewById(R.id.travelTimeSpinner)).getSelectedItem();
-			    String from = (((EditText) findViewById(R.id.travelFromEntry)).getText().toString()).toUpperCase();
-			    String to = (((EditText) findViewById(R.id.travelToEntry)).getText().toString()).toUpperCase();
+			   // String from = (((EditText) findViewById(R.id.travelFromEntry)).getText().toString()).toUpperCase();
+			    String from = ((String)((Spinner) findViewById(R.id.travelFromSpinner)).getSelectedItem()).toUpperCase();
+			   // String to = (((EditText) findViewById(R.id.travelToEntry)).getText().toString()).toUpperCase();
+			    String to = ((String)((Spinner) findViewById(R.id.travelToSpinner)).getSelectedItem()).toUpperCase();
+			    
 			    long id;
 			    
 			    id = db.insertTravelPlan(name, mode, type, date, time, from, to);

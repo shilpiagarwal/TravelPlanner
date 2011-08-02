@@ -9,9 +9,11 @@ package com.travelplanner;
 
 public final class R {
     public static final class array {
+        public static final int TravelFrom=0x7f040003;
         public static final int TravelMode=0x7f040001;
         public static final int TravelTime=0x7f040002;
         public static final int TravelTypes=0x7f040000;
+        public static final int travelTo=0x7f040004;
     }
     public static final class attr {
     }
@@ -33,8 +35,8 @@ public final class R {
         public static final int travelDate=0x7f070008;
         public static final int travelDateText=0x7f070009;
         public static final int travelFrom=0x7f07000c;
-        public static final int travelFromEntry=0x7f07001a;
-        public static final int travelFromText=0x7f07000d;
+        public static final int travelFromSpinner=0x7f07001a;
+        public static final int travelFromText=0x7f07001f;
         public static final int travelMode=0x7f070004;
         public static final int travelModeSpinner=0x7f070015;
         public static final int travelModeText=0x7f070005;
@@ -45,11 +47,13 @@ public final class R {
         public static final int travelTimeSpinner=0x7f070019;
         public static final int travelTimeText=0x7f07000b;
         public static final int travelTo=0x7f07000e;
-        public static final int travelToEntry=0x7f07001b;
+        public static final int travelToSpinner=0x7f07001b;
         public static final int travelToText=0x7f07000f;
         public static final int travelType=0x7f070006;
         public static final int travelTypeSpinner=0x7f070016;
         public static final int travelTypeText=0x7f070007;
+        public static final int travel_From=0x7f07001e;
+        public static final int travel_FromText=0x7f07000d;
         public static final int widget54=0x7f070000;
         public static final int widget55=0x7f07001d;
     }
@@ -75,6 +79,8 @@ public final class R {
         public static final int travelTime=0x7f060008;
         public static final int travelTo=0x7f06000a;
         public static final int travelType=0x7f060006;
+        public static final int travel_From=0x7f060012;
+        public static final int travel_To=0x7f060013;
         public static final int travel_mode=0x7f060010;
         public static final int travel_time=0x7f060011;
         public static final int travel_type=0x7f06000f;
