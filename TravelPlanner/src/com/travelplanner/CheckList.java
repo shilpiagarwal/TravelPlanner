@@ -30,13 +30,10 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.TableLayout;
-import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AddNewPlanCheck extends Activity implements OnClickListener{
+public class CheckList extends Activity implements OnClickListener{
 	
 	long id;
 	private DBAdapter db = null;
