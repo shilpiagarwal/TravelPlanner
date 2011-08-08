@@ -1,0 +1,17 @@
+Installing the Android Application through Application APKInstaller
+
+    Step 1.Download application APKInstaller and install it by clicking the file called "install.bat".
+
+    Step 2.Once installed, plug the Android phone to a computer.
+
+    Step 3.Double Click APK file on the computer you want to install the Android phone.
+
+Installing the Android SDK Android Application
+
+    Step1. Download and install the Android SDK and Android programs USB Driver on a computer. 
+
+    Step2. Change settings on an Android phone to allow installation of applications from other resources. In menu "Settings" in  the Android phone select "Application Settings" and enable "Unknown Sources." Then in the menu "Settings" select "SD Card" and "Phone Storage" and activate "Disable Use for USB Storage".
+
+    Step3. Open the Windows Command Prompt and type "adb install path\filename.apk".
+
+    Done, now the application is installed on the Android phone ready for use.
