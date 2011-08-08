@@ -43,11 +43,10 @@ Android device with version (2.2).
 Installation Help
 -----------------
 
-Please refer to these documents for installing Android
+Please refer to following document for installing Android:
 
-Installation guide for Android SDK (http://www.vogella.de/articles/Android/article.html#overview)
+https://github.com/shilpiagarwal/TravelPlanner/blob/master/Android_Installation_Guide.pdf
 
-Installation Eclipse (http://www.vogella.de/articles/Eclipse/article.html)
 
 Copyright and License Information
 ---------------------------------
@@ -65,6 +64,10 @@ http://commons.wikimedia.org
 http://developer.android.com/index.html 
 
 http://www.helloandroid.com/tutorials/connecting-mysql-database
+
+http://www.vogella.de/articles/Eclipse/article.html
+
+http://www.vogella.de/articles/Android/article.html#overview
 
 Special Thanks to "You tube videos" which helped us a lot understanding Android platform. (http://www.youtube.com/user/CornboyzAndroid#p/a/9E21BFF408167ED6/0/xtsyrKdPZVw)
 
