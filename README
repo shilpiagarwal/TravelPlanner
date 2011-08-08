@@ -7,7 +7,69 @@ Shilpi Agarwal and Hema Kumar
 
 This is our Open Android Travel Planner. It is built on the Android 2.2 Platform.
 
-
 Travel Planner is an android application that helps you to organize your trip. It gives you a checklist which can remind you with a list of necessary things might want to carry with you. It can also be served as a reminder of the warnings or any events that you want to attend at the destination of your travel.
 This application can be used by people of all ages, and allows multiple users as a separate checklist can be created by everyone in the family.
-More details willl be added as we march further in the development of the project.
+
+
+PROJECT DESCRIPTION
+-------------------
+
+With limited memory and enormous data our brains need to remember, it helps to have a checklist which can help us plan a better trip. Be it a trip to a grocery store with all the list of items you want to buy or a trip to a location across the borders of the country, it always helps if things are done in an organized manner. It gives you a checklist which can remind you with a list of necessary things might want to carry with you. It can also be served as a reminder of the warnings or any events that you want to attend at the destination of your travel. This application can be used by people of all ages, and allows multiple users as a separate checklist can be created by everyone in the family.
+
+PROJECT MOTIVATION
+------------------
+Last year end, a friend of ours planned a trip to Italy and was too excited for her vacation. She planned her trip quite well and took care of every little detail possible that could spoil her trip. She left for the airport well before time with all the baggage packed. When she reached the airport and went to the ticket counter, she realized that she had left her passport at her place. The small 32 page document spoiled her trip and poured her hard earned money in a drain as all her tickets could not be changed.
+
+This small incident motivated us to develop an application that helps in organizing things in an proper manner. Travel Planner is an android application which makes a checklist of items that reminds you of everything you want to remember. It also serves as a travel guide which can help you plan your upcoming travels. It also contains a remove feature that can be used to delete items that have already been bought or used.
+
+FUTURE ENHANCEMENTS
+-------------------
+ •Presently TravelPlanner is saving all the data that you entered in its database and remembers that for you. Later when you open the checklist it gives that data back to you.
+ •We intend to add the google maps in it so that it also gives you the direction, map, distance and temperature of the destination.
+ •In future, we also plan to add a way in which this application can extract the names of the people from the contact list living in that Destination area.
+ 
+For More Information please refer To Do Plan at https://github.com/shilpiagarwal/TravelPlanner/blob/master/ToDo
+
+PROJECT REPOSITORY
+------------------
+
+Travel Planner (https://github.com/shilpiagarwal/TravelPlanner)
+
+PLATFORM
+--------
+
+Android device with version (2.2).
+
+Installation Help
+-----------------
+
+Please refer to these documents for installing Android
+
+Installation guide for Android SDK (http://www.vogella.de/articles/Android/article.html#overview)
+
+Installation Eclipse (http://www.vogella.de/articles/Eclipse/article.html)
+
+Copyright and License Information
+---------------------------------
+Copyright(C) 2011 Hema Kumar and Shilpi Agarwal
+
+License (https://github.com/shilpiagarwal/TravelPlanner/blob/master/LICENSE.txt)
+
+
+Resources
+---------
+http://www.anddev.org/
+
+http://commons.wikimedia.org
+
+http://developer.android.com/index.html 
+
+http://www.helloandroid.com/tutorials/connecting-mysql-database
+
+Special Thanks to "You tube videos" which helped us a lot understanding Android platform. (http://www.youtube.com/user/CornboyzAndroid#p/a/9E21BFF408167ED6/0/xtsyrKdPZVw)
+
+For any questions please contact
+-------------------------------- 
+Shilpi Agarwal:agarwal.shilpi.84@gmail.com
+Hema Kumar:hemasid@gmail.com
+***************************************************************************************************************************
