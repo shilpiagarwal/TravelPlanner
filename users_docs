@@ -15,3 +15,7 @@ Installing the Android SDK Android Application
     Step3. Open the Windows Command Prompt and type "adb install path\filename.apk".
 
     Done, now the application is installed on the Android phone ready for use.
+
+
+For More Detailed Information, Please Refer
+    http://www.talkandroid.com/guides/install-apk-files-on-android/
