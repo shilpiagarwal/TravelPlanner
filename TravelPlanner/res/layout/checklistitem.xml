@@ -103,7 +103,7 @@ android:layout_width="fill_parent"
 android:layout_height="wrap_content"
 android:text="@string/travelFrom"/>
 <TextView
-android:id="@+id/travel_FromText"
+android:id="@+id/travelFromText"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
 android:text=""/>

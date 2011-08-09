@@ -80,41 +80,52 @@ public class NewPlan extends Activity implements OnClickListener{
 
         // display the current date (this method is below)
         updateDisplay();
-        
+
+        //display the Type of travel as Personal or official
         Spinner travelType = (Spinner) findViewById(R.id.travelTypeSpinner);
         ArrayAdapter travelTypeAdapter = ArrayAdapter.createFromResource(
                 this, R.array.TravelTypes, android.R.layout.simple_spinner_item);
         travelTypeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         travelType.setAdapter(travelTypeAdapter);
-        
+
+        //Display the mode of travel as via car, air or Train
         Spinner travelMode = (Spinner) findViewById(R.id.travelModeSpinner);
         ArrayAdapter travelModeAdapter = ArrayAdapter.createFromResource(
                 this, R.array.TravelMode, android.R.layout.simple_spinner_item);
         travelModeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         travelMode.setAdapter(travelModeAdapter);
         
+        //Display the time of travel
         Spinner travelTime = (Spinner) findViewById(R.id.travelTimeSpinner);
         ArrayAdapter travelTimeAdapter = ArrayAdapter.createFromResource(
                 this, R.array.TravelTime, android.R.layout.simple_spinner_item);
         travelTimeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         travelTime.setAdapter(travelTimeAdapter);
-	    final Button addButton = (Button) findViewById(R.id.addTravelPlanButton);
-	    addButton.setOnClickListener(this);
-	    final Button cancleButton = (Button) findViewById(R.id.cancelTravelPlanButton);
-	    cancleButton.setOnClickListener(this);
-	    db = new DBAdapter(this);
-	    
-	    Spinner travelFrom = (Spinner) findViewById(R.id.travelFromSpinner);
+
+        //Add button
+        final Button addButton = (Button) findViewById(R.id.addTravelPlanButton);
+        addButton.setOnClickListener(this);
+
+        //Cancel Button
+        final Button cancleButton = (Button) findViewById(R.id.cancelTravelPlanButton);
+        cancleButton.setOnClickListener(this);
+        
+	//Display Travel From Options    	    
+        Spinner travelFrom = (Spinner) findViewById(R.id.travelFromSpinner);
         ArrayAdapter travelFromAdapter = ArrayAdapter.createFromResource(
                 this, R.array.TravelFrom, android.R.layout.simple_spinner_item);
         travelFromAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         travelFrom.setAdapter(travelFromAdapter);
         
+         //Display Travel To Options 
         Spinner travelTo = (Spinner) findViewById(R.id.travelToSpinner);
         ArrayAdapter travelToAdapter = ArrayAdapter.createFromResource(
                 this, R.array.travelTo, android.R.layout.simple_spinner_item);
         travelToAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         travelTo.setAdapter(travelToAdapter);
+        
+        db = new DBAdapter(this);
+
 	}
 	
 	private void updateDisplay() {
@@ -154,17 +165,17 @@ public class NewPlan extends Activity implements OnClickListener{
 	    @Override
 		public void onClick(View v) {
 			
-				switch (v.getId()) {
-				case R.id.addTravelPlanButton:
-			    String name = (((EditText) findViewById(R.id.travelNameEntry)).getText().toString()).toUpperCase();
-			    String mode = ((String)((Spinner) findViewById(R.id.travelModeSpinner)).getSelectedItem()).toUpperCase();
-			    String type = ((String)((Spinner) findViewById(R.id.travelTypeSpinner)).getSelectedItem()).toUpperCase();
-			    String date = ((TextView) findViewById(R.id.dateDisplay)).getText().toString();
-			    String time = (String)((Spinner) findViewById(R.id.travelTimeSpinner)).getSelectedItem();
-			   // String from = (((EditText) findViewById(R.id.travelFromEntry)).getText().toString()).toUpperCase();
-			    String from = ((String)((Spinner) findViewById(R.id.travelFromSpinner)).getSelectedItem()).toUpperCase();
-			   // String to = (((EditText) findViewById(R.id.travelToEntry)).getText().toString()).toUpperCase();
-			    String to = ((String)((Spinner) findViewById(R.id.travelToSpinner)).getSelectedItem()).toUpperCase();
+	    switch (v.getId()) {
+	      case R.id.addTravelPlanButton:
+		String name = (((EditText) findViewById(R.id.travelNameEntry)).getText().toString()).toUpperCase();
+		String mode = ((String)((Spinner) findViewById(R.id.travelModeSpinner)).getSelectedItem()).toUpperCase();
+		String type = ((String)((Spinner) findViewById(R.id.travelTypeSpinner)).getSelectedItem()).toUpperCase();
+		String date = ((TextView) findViewById(R.id.dateDisplay)).getText().toString();
+		String time = (String)((Spinner) findViewById(R.id.travelTimeSpinner)).getSelectedItem();
+		// String from = (((EditText) findViewById(R.id.travelFromEntry)).getText().toString()).toUpperCase();
+		String from = ((String)((Spinner) findViewById(R.id.travelFromSpinner)).getSelectedItem()).toUpperCase();
+		// String to = (((EditText) findViewById(R.id.travelToEntry)).getText().toString()).toUpperCase();
+		String to = ((String)((Spinner) findViewById(R.id.travelToSpinner)).getSelectedItem()).toUpperCase();
 			    
 			    long id;
 			    
