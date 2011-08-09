@@ -3,17 +3,18 @@
                                        FUTURE ENHANCEMENTS
                                        - - - - - - - - - - 
 
-According to the present scenario, TravelPlanner is saving all the data that you entered in its database and remembers that for you. Later when you open the checklist it gives that data back to you. For future puposes, we intend to add the google maps in it so that it also gives you the direction, map, distance and temperature of the destination. We need to connect our "Travel From" and "Travel to" to Google Maps so that anybody using the TravelPlanner can directly get the route, so a planner will help you with directions too.
-     In future, we also plan to add a way in which this application can extract the names of the people from the contact list living in that Destination area. We also wish that we can prompt the addition of the items based on the history. This will save our efforts of typing. 
-     Sharing of the checklist will also be one of the feature we would like to add in our application. This sharing can be done via a sms, mms or simly an email.
- 
-To summarize our Future Goals include the following:
+According to the present scenario, TravelPlanner is saving all the data that you entered in its database and remembers that for you. 
+Later when you open the checklist it gives that data back to you. 
+For future puposes, we intend to add the google maps in it so that it also gives you the direction, map, distance and temperature of the destination. 
+We need to connect our "Travel From" and "Travel to" to Google Maps so that anybody using the TravelPlanner can directly get the route.    
+Here are some more features that we wish to include in our application:
 
  1)   Addition of google maps.
  2)   Prompt the addition of the items based on the History.
  3)   Can determine the weather condition of the destination.
- 4)   Sharing of the chceklist.
+ 4)   Sharing of the checklist through email,mms,bluetooth.
  5)   Display the Direction, map, Temperature and traffic from start to the end of the destination.
  6)   Major attractions of the place of visit could be browsed.
+
 
 ***************************************************************************************************************************
