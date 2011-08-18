@@ -1,7 +1,11 @@
 /**
+Open-Android-TravelPlanner 
+Copyright © 2011
+Hema Kumar and Shilpi Agarwal
+
 * @author Shilpi Agarwal
 * @author Hema Kumar
-*/
+**/
 /** This file is part of TravelPlanner.
 
 TravelPlanner is free software: you can redistribute it and/or modify
