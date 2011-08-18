@@ -1,6 +1,6 @@
 /**
 Open-Android-TravelPlanner 
-Copyright © 2011
+Copyright @ 2011
 Hema Kumar and Shilpi Agarwal
 
 * @author Shilpi Agarwal
