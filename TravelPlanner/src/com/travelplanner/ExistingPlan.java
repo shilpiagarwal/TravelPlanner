@@ -22,7 +22,6 @@ You should have received a copy of the GNU General Public License
 along with Travelplanner. If not, see <http://www.gnu.org/licenses/>.
 
 For feedback please mail at agarwal.shilpi.84@gmail.com/hemasid@gmail.com
-                            
 */
 
 package com.travelplanner;
